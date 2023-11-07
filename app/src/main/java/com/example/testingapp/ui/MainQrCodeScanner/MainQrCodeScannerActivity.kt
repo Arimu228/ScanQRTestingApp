@@ -41,6 +41,7 @@ class MainQrCodeScannerActivity : AppCompatActivity() {
         setContentView(binding.root)
         viewModel = ViewModelProvider(this)[ViewModelStatisticScanner::class.java]
 
+
         initListener()
     }
 
