@@ -2,4 +2,15 @@
     <string name="app_name">TestingApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="signIn_btn">Войти</string>
+    <string name="worker_came">Рабочий пришел в:</string>
+    <string name="worker_out">Рабочий ушел в:</string>
+    <string name="logIn_text">Work Time</string>
+    <string name="my_stats">Моя Статистика</string>
+    <string name="email">ваш номер Email</string>
+    <string name="password">пароль </string>
+    <string name="back">назад\n</string>
+    <string name="todo">TODO</string>
+    <string name="stats">Статистика</string>
 </resources>
