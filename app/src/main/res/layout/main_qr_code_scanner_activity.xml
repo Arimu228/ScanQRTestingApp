@@ -139,14 +139,14 @@
 
 
     <Button
-        android:id="@+id/get"
+        android:id="@+id/online"
         android:layout_width="110dp"
         android:layout_height="50dp"
         android:layout_gravity="bottom|end"
-        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginBottom="2dp"
         android:backgroundTint="@color/teal_200"
-        android:text="get"
+        android:text="онлайн"
         android:textSize="10sp"
         android:textStyle="bold"
         tools:ignore="SmallSp" />

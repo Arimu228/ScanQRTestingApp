@@ -4,8 +4,6 @@ import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.testingapp.data.QrCodeItem
-import com.example.testingapp.data.QrCodeItemTest
 import com.example.testingapp.data.QrCodeTime
 import com.example.testingapp.databinding.ItemQrCodeRvBinding
 

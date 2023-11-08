@@ -1,24 +1,25 @@
 package com.example.testingapp.data.retrofit
 
-import com.example.testingapp.data.AuthRequest
-import com.example.testingapp.data.QrCodeItem
-import com.example.testingapp.data.QrCodeItemTest
+import com.example.testingapp.data.Models.AuthRequest
+import com.example.testingapp.data.QrModelItem
 import retrofit2.Call
-import retrofit2.Response
 import retrofit2.http.Body
+import retrofit2.http.Field
+import retrofit2.http.FormUrlEncoded
 import retrofit2.http.GET
+import retrofit2.http.Headers
 import retrofit2.http.POST
 
 interface QrCodeApiService {
     //http://worktime.kyrgyzpost.kg/api/V1/user-data
-    @GET("user-data")
-    fun getWorkerStatistics(): Call<QrCodeItemTest>
+    @GET("V1/user-data")
+    @Headers("Authorization: Bearer 22|yEGvh8PJdvyrjZhZaBTG6y1b7I6wfxiahitWRrR982592077")
+    fun getWorkerStatistics(): Call<QrModelItem>
 
-    @POST("auth/login")
+    @POST("V1/auth/login")
+    @FormUrlEncoded
     fun auth(
-        @Body authRequest: AuthRequest
-    ): Call<QrCodeItemTest>
+        @Field("email") email:String,
+        @Field("password") password:String,
+    ): Call<QrModelItem>
 }
-//var department: String? = null,
-//    var position: String? = null,
-//    var remote: Boolean = false,

@@ -16,6 +16,7 @@ class RetrofitClient {
     var api = retrofit.create(QrCodeApiService::class.java)
 
     companion object {
-        private const val BASE_URL = "http://worktime.kyrgyzpost.kg/api/V1/"
+        const val BASE_URL = "http://worktime.kyrgyzpost.kg/api/"
+        private const val BASE_URL_TEST = "https://jsonplaceholder.typicode.com/"
     }
 }

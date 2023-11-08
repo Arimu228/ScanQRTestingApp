@@ -1,13 +1,12 @@
 package com.example.testingapp.data
 
-data class QrCodeItemTest(
+data class QrModelItem(
     val id: Int,
-    val last_name: String,
-    val first_name: String,
     val department: String,
+    val first_name: String,
+    val last_name: String,
     val position: String,
-    val remote: Boolean,
-    val token:String? = null
+    val remote: Boolean
 )
 
 data class QrCodeTime(
